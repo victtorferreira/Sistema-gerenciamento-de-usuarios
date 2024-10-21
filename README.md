@@ -1,33 +1,34 @@
-## Instalação
-Você pode clonar este repositório OU baixar o .zip
+# Sistema de Gerenciamento de Usuarios
 
-Ao descompactar, é necessário rodar o **composer** pra instalar as dependências e gerar o *autoload*.
+Sistema de Gerenciamento de Usuarios, feito em PHP puro, usando padrão MVC.
 
-Vá até a pasta do projeto, pelo *prompt/terminal* e execute:
-> composer install
+## 📋 Índice
 
-Depois é só aguardar.
+- [Características](#-características)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Instalação](#-instalação)
+- [Uso](#-uso)
+- [Contribuição](#-contribuição)
+- [Licença](#-licença)
 
-## Configuração
-Todos os arquivos de **configuração** e aplicação estão dentro da pasta *src*.
+## 🔍 Características
 
-As configurações de Banco de Dados e URL estão no arquivo *src/Config.php*
+- Autenticação de usuários 
+- CRUD (Criar, Ler, Atualizar e Excluir) para contatos.
 
-É importante configurar corretamente a constante *BASE_DIR*:
-> const BASE_DIR = '/**PastaDoProjeto**/public';
 
-## Uso
-Você deve acessar a pasta *public* do projeto.
 
-O ideal é criar um ***alias*** específico no servidor que direcione diretamente para a pasta *public*.
+## 🛠️ Tecnologias Utilizadas
 
-## Modelo de MODEL
-```php
-<?php
-namespace src\models;
-use \core\Model;
+- [Php](https://php.net/) - Framework PHP para desenvolvimento web.
+- [Mysql](https://www.mysql.com/) - Banco de dados utilizado.
 
-class Usuario extends Model {
+## 🚀 Instalação
 
-}
-```
+Para instalar e configurar a aplicação, siga os passos abaixo:
+
+### 1. Clone o Repositório
+
+```bash
+git clone https://github.com/seu-usuario/contact-api.git
+cd contact-api

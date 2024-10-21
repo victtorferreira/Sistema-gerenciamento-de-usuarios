@@ -1,0 +1,68 @@
+.form-section {
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    transition: box-shadow 0.3s;
+}
+
+.form-section h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+.save-btn {
+    padding: 12px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.save-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilização básica para os links */
+a {
+    color: #2575fc; /* Cor personalizada para os links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: 500; /* Deixa o link mais visível e com peso intermediário */
+    transition: color 0.3s; /* Animação suave para a mudança de cor */
+}
+
+a:hover {
+    color: #6a11cb; /* Cor de destaque ao passar o mouse */
+    text-decoration: none; /* Mantém sem sublinhado ao passar o mouse */
+}
+
